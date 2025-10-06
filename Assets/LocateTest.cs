@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-
+// TEST FOR PULL
 public class LocateTest : MonoBehaviour
 {
     Transform childTransform;
@@ -26,11 +26,11 @@ public class LocateTest : MonoBehaviour
         var testDotString = $"Dot: {testDot.ToString()}";
 
         sphereTransform.position = childTransform.right*testDot;
-        textMeshPro.text = $"ก{selfPosition}\n"
-            + $"ก{targetPosition}\n"
-            + $"ก{localTargetPosition}\n"
-            + $"ก{normalizedVectorString}\n"
-            + $"ก{otherWorldPosition}\n"
-            + $"ก{testDotString}";
+        textMeshPro.text = $"ยยก{selfPosition}\n"
+            + $"ยยก{targetPosition}\n"
+            + $"ยยก{localTargetPosition}\n"
+            + $"ยยก{normalizedVectorString}\n"
+            + $"ยยก{otherWorldPosition}\n"
+            + $"ยยก{testDotString}";
     }
 }
